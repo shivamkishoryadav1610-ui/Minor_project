@@ -9,46 +9,105 @@
 
 /* footer css */
 .footer {
-    background: #501f1f;
-    width: 90%;
-    height: 250px;
+    background:linear-gradient(135deg ,#0a1e3b,#1b3054);
+    width: auto;
+    height: auto;
+    margin-top: 100%;
+    /* flex-wrap: wrap; */
+    
 }
 
 .main-footer {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 200px;
-    display: flex;
-    align-items: flex-end;
-    margin: 40px;
-}
-.logo{
-    width: 40px;
-   
+    width: auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px;
+    margin: 20px;
+    
+
 }
 
 .footer-box {
-    background-color: azure;
-    height: 30px;
-    width: 130px;
-    display: flex;
-    align-items: flex-end;
+    /* background-color: rgb(84, 185, 185); */
+    height: 170px;
+    width: auto;
+    /* margin-top: 5px; */
+    text-align:start;
+}
 
-}
-.social a{
+.social a {
     text-decoration: none;
-    color: navy;
+    color: hsl(0, 0%, 100%);
 }
+img{
+    border-radius: 100%;
+}
+
 
 .social {
-    width: 60%;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    border:none;
-    
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:10px;
+    border: none;
+    /* background-color: aquamarine; */
+
 }
- .social a:hover{
+
+.social a:hover {
     font-size: 1.2rem;
-    /* color: #0000ffcb; */
-    /* box-shadow: 0 15px 20px blue; */
- }
+    color: aqua;
+
+}
+
+.link {
+    height: 150px;
+    width: auto;
+    font-weight: 500;
+}
+
+.link a {
+    text-decoration: none;
+     color: rgb(9, 7, 7);
+}
+
+.import-link {
+    height: 150px;
+    width: auto;
+    font-weight: 500;
+}
+
+.import-link a {
+    text-decoration: none;
+    color: rgb(9, 7, 7);
+}
+
+.contect {
+    height: 150px;
+    width: 350px;
+    font-weight: 500;
+}
+.bottom-footer{
+    margin-top:30px;
+    padding-top:20px;
+    border-top:1px solid rgba(255,255,255,.2);
+    text-align:center;
+    color:#ccc;
+}
+
+.footer-box,
+.link,
+.import-link{
+    border-right:1px solid rgba(255,255,255,.2);
+    padding-right:35px;
+}
+.para{
+    background-color: #0a1e3b;
+    color: white;
+    text-align: center;
+}
