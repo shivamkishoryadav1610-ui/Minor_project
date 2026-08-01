@@ -6,7 +6,64 @@
 /* header */
 
 /* main */
+/* department update */
+.department-header{
+    background-color: aqua;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 20px;
+}
+/* gallery update */
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.gallery-btn {
+    padding: 7px;
+    margin: 2px;
+    border: none;
+    border-radius: 3px;
+    background-color: #355e9c;
+}
+
+.gallery-btn:hover {
+    background: rgb(180, 55, 10);
+    transition-duration: 1s;
+}
+
+.gallery-box {
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-card {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(57, 123, 182);
+    border-radius: 2px;
+    border: none;
+}
+
+.gallery-card:hover{
+    height: 150px;
+    width: 150px;
+}
+
+/* subscribe box */
 .subscribe-box {
     background-color: #122e57;
     height: auto;
@@ -37,9 +94,11 @@
     padding: 8px;
     gap: 5px;
 }
-.envelop{
+
+.envelop {
     border-radius: 100%;
 }
+
 .text {
     color: aliceblue;
 
